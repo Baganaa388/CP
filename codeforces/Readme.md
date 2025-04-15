@@ -1,1 +1,1 @@
-My Codeforces solutions, organized by difficulty and named after each problem.
+My codeforces solutions, organized by difficulty and named after each problem.
