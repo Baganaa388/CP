@@ -15,13 +15,13 @@ int main(){
 
         cout<<result<<endl;
         cout<<first<<endl;
-        for(){
+        // for(){
             
-        }
-        cout<<last<<endl;
-        for(){
+        // }
+        // cout<<last<<endl;
+        // for(){
 
-        }
+        // }
     }
     return 0;
 }
