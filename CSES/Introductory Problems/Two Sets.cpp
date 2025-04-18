@@ -61,9 +61,6 @@ int main(){
                 if(temp == 1){
                     temp = 3;
                 }
-
-
-
                 
                 else{
                     temp = 1;
