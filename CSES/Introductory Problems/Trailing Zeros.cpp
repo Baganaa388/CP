@@ -4,31 +4,11 @@ using namespace std;
 int main(){
     long long int n;
     cin>>n;
-    long long int result;
-    long long int temp;
-    if(n < 5){
-        result = 0;
-    }
-    else if(n==5){
-        result = 1;
-    }
-    else{
-        result = 1;    
-        for(long long int i = 6; i<=n; i++){
-            if(i % 10 == 0){
-                int count = 1;
-                int m = i;
-                while(m>0){
-                    if(m%10==0){
-                        count++;
-                    }
-                    m = m / 10;
-                }
-                result+=count;
-            }
-            else if(i % 5 == 0){
-                result++;
-            }
+    long long int result = 0;
+    for(long long int i = 5; i<=n; i+=5){
+        if(i % 5 == 0){
+            int temp = i/5;
+            result++;
         }
     }
     cout<<result;
