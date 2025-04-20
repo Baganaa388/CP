@@ -8,7 +8,9 @@ int main(){
     while(t--){
         unsigned int number;
         cin>>number;
-        
+
     }
+
+    cout<<t;
     return 0;
 }
