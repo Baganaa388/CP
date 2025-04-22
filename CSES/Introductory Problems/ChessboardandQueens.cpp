@@ -7,6 +7,9 @@ int solve(char (&board)[8][8]){
     if(true){
 
     }
+    else{
+        
+    }
     return 1;
 }
 
