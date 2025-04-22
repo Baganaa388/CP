@@ -4,6 +4,7 @@
 using namespace std;
 
 int solve(char (&board)[8][8]){
+    if()
     return 1;
 }
 
